@@ -21,10 +21,10 @@ CREATE TABLE Kunder (
     Telefon VARCHAR(20) NOT NULL,		     -- "NOT NULL" betyder att kolumnen måste ha ett värde
     Adress VARCHAR(255) NOT NULL                     -- "VARCHAR(255)" betyder att den kan lagra upp till 255 tecken
     );
-    /*
-    Skapar tabellen böcker
-    BokID är PRIMARY KEY
-    */
+/*
+Skapar tabellen böcker
+BokID är PRIMARY KEY
+*/
 CREATE TABLE Böcker (
     BokID INT AUTO_INCREMENT PRIMARY KEY,            -- "PRIMARY KEY" betyder att den gör kolumnen till en unik identifierare för varje rad
     Titel VARCHAR(255) NOT NULL,                     -- Titel kan innehålla upp till 255 tecken och ett värde måste anges
